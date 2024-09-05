@@ -1,0 +1,37 @@
+.constitution-section {
+    background-color: #e7f6fd; 
+    padding: 2rem; 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    
+    .row {
+      display: flex;
+      align-items: center; 
+      justify-content: space-between; 
+      gap: 2rem; 
+    
+      .column {
+        flex: 1; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        padding: 1rem; 
+    
+        &.text-column {
+          p {
+            font-size: 1.2rem; /* Increased font size for better readability */
+            color: #555;
+            line-height: 1.8; /* Increased line height for more spacing between lines */
+            text-align: left; 
+          }
+        }
+    
+        .image {
+          max-width: 60%; /* Reduced the image size to make it smaller */
+          border-radius: 8px; 
+        }
+      }
+    }
+  }
+  
